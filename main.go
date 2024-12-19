@@ -64,6 +64,6 @@ func main() {
 			fmt.Printf("Error reading  from server: %v\n", err)
 			break
 		}
-		fmt.Println(goresp.SerializeReaderCommand(res))
+		fmt.Println(goresp.SerializeValue(res))
 	}
 }
